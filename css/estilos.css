@@ -1,0 +1,529 @@
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 174px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+body , section {
+    width: 100vw;
+}
+
+nav {
+    color: #242E52;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    width: 500px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #232C50;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: #232851;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h4 {
+    color: #323851;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: #B3B2B7;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+ul {
+    font-size: 16px;
+    line-height: 23px;
+    color: white;
+    height: 141px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contenedor-testimonio > p {
+    text-align: center;
+}
+
+.contenedor-invitacion-final > h2 {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    width: 30%;
+}
+
+footer > p {
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+}
+
+.contenedor-logo {
+    width: 144px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icono-hamburguesa {
+    display: none;
+}
+
+.scroll-horizontal {
+    display: none;
+}
+
+.contenedor-logo-redes {
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-landing-boton {
+    background-color: #F3603B;
+    color: white;
+    width: 134px;
+    height: 44px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+}
+
+.contenedor-landing-boton:hover {
+    background-color: rgb(148, 37, 10);
+}
+
+.etiqueta-numerica {
+    background-color: #F3603B;
+    color: white;
+    width: 69px;
+    height: 43px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-producto-principal {
+    width: 100vw;
+    margin-bottom: 45px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-discurso-producto {
+    width: 439px;
+    height: 340px;
+    margin-right: 3vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.grafica-principal-producto {
+    margin-left: 3vw;
+}
+
+.contenedor-diferencias-producto {
+    width: 439px;
+    height: 220px;
+    margin-right: 3vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.subventaja {
+    width: 437px;
+    height: 130px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contenedor-ventaja {
+    width: 535px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contenedor-ventajas-especificas-producto {
+    height: 550px;
+    margin-left: 3vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contenedor-ventajas-producto {
+    width: 100vw;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contenedor-exitos {
+    width: 100vw;
+    margin-bottom: 60px;
+    height: 478px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-clientes-satisfechos {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-testimonio {
+    background-color: #FAFAFA;
+    width: 31vw;
+    height: 219px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imagen {
+    position: absolute;
+    top: -14%;
+}
+
+.contenedor-invitacion-final {
+    background-color: #F3613C;
+    width: 100vw;
+    height: 224px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-landing-boton-dos {
+    background-color: white;
+    color: #F3603B;
+    width: 134px;
+    height: 44px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #1E1E26;
+    width: 100vw;
+    height: 247px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contenedor-final-dos {
+    width: 40%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contenedor-formulario {
+    height: 141px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    width: 275px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #F3603B;
+    color: white;
+    width: 63px;
+    height: 42px;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 4%;
+}
+
+input {
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 250px) and (max-width: 475px) {
+
+    header , .contenedor-producto-principal {
+        background-image: url('../img/fondo-mobile-version.svg');
+        background-size: 250%;
+        background-position: top;
+    }
+
+    .icono-hamburguesa {
+        display: flex;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header > .contenedor-landing-boton {
+        display: none;
+    }
+
+    .contenedor-producto-principal {
+        height: fit-content;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-discurso-producto {
+        height: 470px;
+        width: 95vw;
+        margin-right: 0px;
+        margin-top: 3%;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+    .grafica-principal-producto {
+        width: 98vw;
+        margin-left: 0px;
+        margin-bottom: 3%;
+    }
+
+    .contenedor-invitacion-final {
+        height: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-invitacion-final > h2 {
+        text-align: center;
+        width: 100%;
+        margin: 6%;
+    }
+
+    .contenedor-landing-boton-dos {
+        margin: 6%;
+    }
+
+    footer {
+        height: 550px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer > p {
+        bottom: 4%;
+        right: 15%;
+    }
+
+    form {
+        margin: 6%
+    }
+
+    .contenedor-final-dos {
+        width: 93%;
+        margin: 6%
+    }
+
+    .contenedor-logo-redes {
+        margin: 6%
+    }
+
+    .contenedor-logo-redes {
+        flex-direction: column-reverse;
+    }
+
+    .contenedor-ventaja {
+        justify-content: flex-start;
+    }
+
+    .subventaja > h4 {
+        background-color: #f7e2de;
+        box-sizing: border-box;
+        height: 50px;
+    }
+
+    .subventaja {
+        width: 98vw;
+    }
+
+    .contenedor-ventaja {
+        width: 98vw;
+    }
+
+    .contenedor-ventajas-producto {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-ventajas-especificas-producto {
+        width: 95vw;
+        height: 820px;
+        margin-bottom: 60px;
+    }
+
+    .contenedor-diferencias-producto > h2 {
+        width: 98vw;
+        text-align: center;
+    }
+
+    .contenedor-diferencias-producto > h3 {
+        width: 98vw;
+        text-align: center;
+    }
+
+    .contenedor-diferencias-producto {
+        align-items: center;
+    }
+
+    .scroll-horizontal {
+        display: flex;
+    }
+
+    .contenedor-testimonio:nth-of-type(1) {
+        width: 98vw;
+    }
+
+    .contenedor-testimonio:nth-of-type(2) {
+        display: none;
+    }
+
+    .contenedor-testimonio:nth-of-type(3) {
+        display: none;
+    }
+}
