@@ -95,6 +95,10 @@ ul {
     align-items: flex-start;
 }
 
+
+/* Selectores con propiedades especiales, hijos de contenedores */
+
+
 .contenedor-diferencias-producto > h2 {
     color: #232851;
     font-style: normal;
@@ -158,6 +162,10 @@ footer > p {
     right: 8%;
 }
 
+
+/* Selectores encabezado */
+
+
 .contenedor-logo {
     width: 144px;
     box-sizing: border-box;
@@ -173,15 +181,6 @@ footer > p {
 
 .scroll-horizontal {
     display: none;
-}
-
-.contenedor-logo-redes {
-    height: 100px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .contenedor-landing-boton {
@@ -385,6 +384,15 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.contenedor-logo-redes {
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contenedor-formulario {
